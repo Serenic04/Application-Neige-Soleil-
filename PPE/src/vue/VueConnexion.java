@@ -24,8 +24,8 @@ public class VueConnexion extends JFrame implements ActionListener
 {
 	private JButton btSeConnecter = new JButton("Se Connecter") ; 
 	private JButton btAnnuler = new JButton("Annuler") ;
-	private JTextField txtEmail = new JTextField("mohanrajuserenic@gmail.com"); 
-	private JPasswordField txtMdp = new JPasswordField("123"); 
+	private JTextField txtEmail = new JTextField(""); 
+	private JPasswordField txtMdp = new JPasswordField(""); 
 	private JPanel panelForm = new JPanel (); 
 	public VueConnexion() {
 		this.setTitle("Application CL Neige & Soleil");
